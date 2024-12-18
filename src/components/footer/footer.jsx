@@ -96,7 +96,7 @@ const Footer = () => {
               Lorem ipsum dolor sit amet consectetur. Nec ultricies consequat at
               vehicula aliquet tincidunt morbi.
             </p>
-            <div className="flex flex-col md:flex-row gap-2">
+            <div className="flex flex-col md:flex-row flex-wrap gap-2">
               <div>
                 {" "}
                 <input

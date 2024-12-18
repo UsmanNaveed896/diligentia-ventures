@@ -18,7 +18,7 @@ const Section3 = () => {
         <div className="container max-w-[1000px]">
           <div className="flex  items-center md:mt-16 mt-2 justify-center md:flex-row flex-col">
             <div className="first-div md:mr-[-90px] mr-0">
-              <div className="h-[220px] w-[220px] rounded-full font-texturina bg-[#EC3237] border-[10px] border-[#757480]">
+              <div data-aos="fade-right" className="h-[220px] w-[220px] rounded-full font-texturina bg-[#EC3237] border-[10px] border-[#757480]">
                 <p className="text-white mt-10 md:ml-6 ml-0 text-4xl font-bold text-center md:text-start">
                   Our <br></br> Objectives{" "}
                 </p>
@@ -28,7 +28,7 @@ const Section3 = () => {
               <img className="h-[400px]" src={Img2} alt="abc" />
             </div>
             <div className="third-div relative">
-              <div className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[-60px] left-[-100px]">
+              <div data-aos="fade-left" className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[-60px] left-[-100px]">
                 <div className="flex ">
                   <div className="drop relative">
                     <img className="h-[60px]" src={Img3} alt="drop" />
@@ -53,7 +53,7 @@ const Section3 = () => {
 
               {/* SECOND */}
 
-              <div className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[-30px] left-[-10px]">
+              <div  data-aos="fade-left" className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[-30px] left-[-10px]">
                 <div className="flex ">
                   <div className="drop relative">
                     <img className="h-[60px]" src={Img5} alt="drop" />
@@ -77,7 +77,7 @@ const Section3 = () => {
               </div>
 
               {/* tHIRD */}
-              <div className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6]  static md:relative top-[-0px] left-[10px]">
+              <div  data-aos="fade-left" className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6]  static md:relative top-[-0px] left-[10px]">
                 <div className="flex ">
                   <div className="drop relative">
                     <img className="h-[60px]" src={Img3} alt="drop" />
@@ -100,7 +100,7 @@ const Section3 = () => {
               </div>
 
               {/* Fourth */}
-              <div className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6]  static md:relative top-[30px] left-[-10px]">
+              <div  data-aos="fade-left" className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6]  static md:relative top-[30px] left-[-10px]">
                 <div className="flex ">
                   <div className="drop relative">
                     <img className="h-[60px]" src={Img5} alt="drop" />
@@ -123,7 +123,7 @@ const Section3 = () => {
               </div>
 
               {/* fIFTH */}
-              <div className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[60px] left-[-100px]">
+              <div  data-aos="fade-left" className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[60px] left-[-100px]">
                 <div className="flex ">
                   <div className="drop relative">
                     <img className="h-[60px]" src={Img3} alt="drop" />

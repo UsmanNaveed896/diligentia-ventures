@@ -11,8 +11,8 @@ const Section2 = () => {
     >
       <div className="flex justify-center px-8 py-16">
         <div className="container max-w-[900px]">
-          <p className="text-[17px] font-texturina text-white text-center md:text-start">
-            <span className="text-[#EC3237] text-3xl">
+          <p data-aos="fade-up" className="text-[17px] font-texturina text-white text-center md:text-start">
+            <span data-aos="fade-up" className="text-[#EC3237] text-3xl">
               At DILIGENTIA VENTURES INC,{" "}
             </span>{" "} <br className="md:hidden block pb-2 md:pb-0"></br>
             we are committed to helping organizations achieve exceptional
@@ -22,7 +22,7 @@ const Section2 = () => {
             strategies to navigate the complexities of today’s business
             environment.
           </p>
-          <p className="text-[17px] font-texturina text-white md:mt-6 mt-2 text-center md:text-start">
+          <p data-aos="fade-left" className="text-[17px] font-texturina text-white md:mt-6 mt-2 text-center md:text-start">
             {" "}
             In today's dynamic business environment, achieving financial
             stability and growth requires strategic planning, innovative

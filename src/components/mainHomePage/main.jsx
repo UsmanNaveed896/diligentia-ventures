@@ -19,18 +19,18 @@ const Main = () => {
       <div className="flex justify-center">
         <div className="container max-w-[1000px]">
           <div className="flex justify-between md:flex-row flex-col-reverse px-12 items-center">
-            <div className="mt-5 md:mt-0">
+            <div  data-aos="fade-right" className="mt-5 md:mt-0">
               <h1 className="text-white text-center md:text-start md:text-5xl text-3xl font-bold uppercase font-texturina leading-[45px]">
                 It all starts <br></br> with a surge <br></br>{" "}
                 <span className="text-[#EC3237] md:text-3xl text-xl md:leading-[30px] leading-[10px] ">
                   make your company <br></br> surge shift!
                 </span>
               </h1>
-              <p className="text-white md:mt-6 mt-2 text-sm text-center md:text-start">
+              <p  className="text-white md:mt-6 mt-2 text-sm text-center md:text-start">
                 Unlock Your Business Potential with Expertise and Innovation
               </p>
             </div>
-            <div className="mt-28 ">
+            <div data-aos="fade-up" className="mt-28 ">
               <div className="image  relative">
                 <img className="h-[350px]" src={Img1} alt="background" />
                 <img
@@ -42,7 +42,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="flex md:justify-start justify-center mt-12 md:mt-0 gap-2 text-white">
+          <div data-aos="fade-down" className="flex md:justify-start justify-center mt-12 md:mt-0 gap-2 text-white">
             <div className="flex items-center gap-2">
               <FaFacebook className="h-4 w-4" />
               <p className="text-[14px]">Facebook</p>

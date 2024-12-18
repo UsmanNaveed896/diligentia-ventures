@@ -45,7 +45,7 @@ const Section7 = () => {
         }}
       >
         <div className="text py-16 text-center">
-          <p className="font-texturina text-5xl font-extrabold text-white">
+          <p data-aos="zoom-out" className="font-texturina text-5xl font-extrabold text-white">
             Services Offered
           </p>
         </div>
@@ -60,6 +60,7 @@ const Section7 = () => {
             {/* Background Image */}
             <img
               src={item.img}
+              data-aos="flip-left"
               alt={item.title}
               className="w-full h-full object-cover"
             />
@@ -67,6 +68,7 @@ const Section7 = () => {
             {/* Overlay for Red/Blue Color */}
             {item.overlayColor && (
               <div
+              data-aos="flip-left"
                 className={`absolute inset-0 ${item.overlayColor} opacity-100`}
               ></div>
             )}

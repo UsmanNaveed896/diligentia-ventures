@@ -14,7 +14,7 @@ const Section4 = () => {
       <div className="flex justify-center px-8 py-16">
         <div className="container max-w-[900px]">
           <div className="flex gap-6 justify-center flex-col md:flex-row relative items-center">
-            <div className="relative h-[400px]">
+            <div data-aos="flip-left" className="relative h-[400px]">
               <img
                 className="w-full h-full object-cover "
                 src={Img1}
@@ -24,7 +24,7 @@ const Section4 = () => {
                 <span className="text-[8rem]">A <br></br></span>bout Us
               </p>
             </div>
-            <div className="second-div font-texturina mt-24 md:mt-0">
+            <div data-aos="slide-up" className="second-div font-texturina mt-24 md:mt-0">
               <h1 className="text-white font-semibold text-xl md:text-start text-center">
                 Lorem ipsum dolor sit amet <br></br> consectetur. Nullam sed in
                 ut ac{" "}

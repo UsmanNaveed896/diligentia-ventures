@@ -13,12 +13,12 @@ const Footer = () => {
     <div className="bg-primary"
       style={{
         backgroundImage: `url(${Img1})`,
-        backgroundSize: "cover", // Ensures the image covers the container
+        backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <footer className=" text-white py-8 px-4 md:px-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center ">
+      <footer className="text-white py-8 px-4 md:px-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
           {/* Left Section */}
           <div>
             <div className="flex items-center mb-4 justify-center">
@@ -96,20 +96,15 @@ const Footer = () => {
               Lorem ipsum dolor sit amet consectetur. Nec ultricies consequat at
               vehicula aliquet tincidunt morbi.
             </p>
-            <div className="flex flex-col md:flex-row flex-wrap gap-2">
-              <div>
-                {" "}
-                <input
-                  type="email"
-                  placeholder="Enter your email..."
-                  className="w-full md:w-auto flex-1 py-2 px-4 rounded-md text-black focus:outline-none"
-                />
-              </div>
-              <div>
-                <button className="bg-white text-secondary font-bold py-2 px-6 rounded-md text-xs">
-                  Submit Now
-                </button>
-              </div>
+            <div className="flex flex-col md:flex-row gap-2">
+              <input
+                type="email"
+                placeholder="Enter your email..."
+                className="w-full md:w-48 py-2 px-4 rounded-md text-black focus:outline-none"
+              />
+              <button className="w-full md:w-auto bg-white text-secondary font-bold py-2 px-6 rounded-md text-xs whitespace-nowrap">
+                Submit Now
+              </button>
             </div>
           </div>
         </div>

@@ -6,41 +6,50 @@ import RiskManagementImg from "../../assets/18.png";
 import MarketingImg from "../../assets/19.png";
 import StrategicPlanningImg from "../../assets/20.png";
 import ViewAllImg from "../../assets/21.png";
+
 const Section7 = () => {
-    const gridData = [
-        {
-          title: "Financial Consulting",
-          img: FinancialImg,
-        },
-        {
-          title: "Budgeting and Forecasting",
-          img: BudgetingImg,
-          overlayColor: "bg-secondary", // Adds the red overlay effect
-        },
-        {
-          title: "Risk Management",
-          img: RiskManagementImg,
-        },
-        {
-          title: "Marketing and Business Plan Development",
-          img: MarketingImg,
-        },
-        {
-          title: "Strategic Planning",
-          img: StrategicPlanningImg,
-        },
-        {
-          title: "View All",
-          img: ViewAllImg,
-          overlayColor: "bg-[#3E4095]", // Adds blue overlay effect
-        },
-      ];
+  const gridData = [
+    {
+      title: "Financial Consulting",
+      img: FinancialImg,
+      description: "Expert financial guidance for your business growth and success"
+    },
+    {
+      title: "Budgeting and Forecasting",
+      img: BudgetingImg,
+      overlayColor: "bg-secondary",
+      description: "Comprehensive budgeting solutions for future planning"
+    },
+    {
+      title: "Risk Management",
+      img: RiskManagementImg,
+      description: "Identify and mitigate potential business risks effectively"
+    },
+    {
+      title: "Marketing and Business Plan Development",
+      img: MarketingImg,
+      description: "Strategic marketing solutions to expand your business reach"
+    },
+    {
+      title: "Strategic Planning",
+      img: StrategicPlanningImg,
+      description: "Long-term strategic planning for sustainable growth"
+    },
+    {
+      title: "View All",
+      img: ViewAllImg,
+      overlayColor: "bg-[#3E4095]",
+      description: "Explore our complete range of services"
+    },
+  ];
+
   return (
     <>
       <div
+        className="overflow-hidden"
         style={{
           backgroundImage: `url(${Img})`,
-          backgroundSize: "cover", // Ensures the image covers the container
+          backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
@@ -55,26 +64,38 @@ const Section7 = () => {
         {gridData.map((item, index) => (
           <div
             key={index}
-            className="relative w-full h-64  overflow-hidden z-20"
+            className="relative w-full h-64 overflow-hidden group"
           >
-            {/* Background Image */}
+            {/* Color Overlay - Now below the image */}
+            {item.overlayColor && (
+              <div
+                data-aos="flip-left"
+                className={`absolute inset-0 ${item.overlayColor} opacity-100 z-0`}
+              />
+            )}
+
+            {/* Background Image - Now above the color overlay */}
             <img
               src={item.img}
               data-aos="flip-left"
               alt={item.title}
-              className="w-full h-full object-cover"
+              className="relative w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 z-10"
             />
 
-            {/* Overlay for Red/Blue Color */}
-            {item.overlayColor && (
-              <div
-              data-aos="flip-left"
-                className={`absolute inset-0 ${item.overlayColor} opacity-100`}
-              ></div>
-            )}
+            {/* Hover Overlay - Highest z-index */}
+            <div className="absolute inset-0 bg-secondary/80 translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0 z-20">
+              <div className="h-full flex flex-col items-center justify-center p-4 text-white">
+                <h3 className="font-texturina text-xl md:text-2xl font-bold text-center mb-4">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-center opacity-90">
+                  {item.description}
+                </p>
+              </div>
+            </div>
 
-            {/* Text Content */}
-            <div className="font-texturina absolute inset-0 flex items-center justify-center text-white text-xl md:text-2xl font-bold text-center p-2">
+            {/* Default Title - Above image but below hover overlay */}
+            <div className="font-texturina absolute inset-0 flex items-center justify-center text-white text-xl md:text-2xl font-bold text-center p-2 transition-opacity duration-500 group-hover:opacity-0 z-10">
               {item.title}
             </div>
           </div>

@@ -42,7 +42,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div data-aos="fade-down" className="flex md:justify-start justify-center mt-12 md:mt-0 gap-2 text-white">
+          <div data-aos="fade-down" className="flex md:justify-start justify-center mt-12 md:mt-0 gap-2 text-white md:ml-12">
             <div className="flex items-center gap-2">
               <FaFacebook className="h-4 w-4" />
               <p className="text-[14px]">Facebook</p>

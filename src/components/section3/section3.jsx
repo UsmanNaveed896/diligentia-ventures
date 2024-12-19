@@ -38,7 +38,7 @@ const Section3 = () => {
                 <div className="flex gap-3">
                   <div className="drop relative">
                     {/* Drop image */}
-                    <img className="h-full md:h-[80px]" src={Img3} alt="drop" />
+                    <img className=" md:h-[80px]" src={Img3} alt="drop" />
                     {/* Rounded image */}
                     <img
                       className="absolute sm:h-[40px] h-[45px] sm:top-1 top-1 sm:left-1 left-1 md:h-[65px] md:top-2 md:left-2"
@@ -69,7 +69,7 @@ const Section3 = () => {
               >
                 <div className="flex gap-3">
                   <div className="drop relative">
-                    <img className="h-full md:h-[80px]" src={Img5} alt="drop" />
+                    <img className=" md:h-[80px]" src={Img5} alt="drop" />
                     <img
                       className="absolute sm:h-[40px] h-[45px] sm:top-1 top-1 sm:left-1 left-1 md:h-[65px] md:top-2 md:left-2"
                       src={Img4}
@@ -98,7 +98,7 @@ const Section3 = () => {
               >
                 <div className="flex gap-3">
                   <div className="drop relative">
-                    <img className="h-full md:h-[80px]" src={Img3} alt="drop" />
+                    <img className="md:h-[80px]" src={Img3} alt="drop" />
                     <img
                       className="absolute sm:h-[40px] h-[45px] sm:top-1 top-2 sm:left-1 left-1 md:h-[65px] md:top-2 md:left-2"
                       src={Img4}
@@ -126,7 +126,7 @@ const Section3 = () => {
 >
   <div className="flex gap-3">
     <div className="drop relative">
-      <img className="h-full md:h-[80px]" src={Img5} alt="drop" />
+      <img className=" md:h-[80px]" src={Img5} alt="drop" />
       <img
         className="absolute sm:h-[40px] h-[45px] sm:top-1 top-3 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
         src={Img4}
@@ -154,7 +154,7 @@ const Section3 = () => {
 >
   <div className="flex gap-3">
     <div className="drop relative">
-      <img className="h-full md:h-[80px]" src={Img3} alt="drop" />
+      <img className="md:h-[80px]" src={Img3} alt="drop" />
       <img
         className="absolute sm:h-[40px] h-[45px] sm:top-1 top-2 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
         src={Img4}

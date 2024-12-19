@@ -7,7 +7,7 @@ import Img5 from "../../assets/11.png";
 
 const Section3 = () => {
   return (
-    <div
+    <div className="overflow-hidden"
       style={{
         backgroundImage: `url(${Img})`,
         backgroundSize: "cover", // Ensures the image covers the container
@@ -121,60 +121,59 @@ const Section3 = () => {
 
               {/* Fourth */}
               <div
-  data-aos="fade-left"
-  className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[52px] top-[50px] sm:left-[-10px] left-[-22px]"
->
-  <div className="flex gap-3">
-    <div className="drop relative">
-      <img className=" md:h-[80px]" src={Img5} alt="drop" />
-      <img
-        className="absolute sm:h-[40px] h-[45px] sm:top-1 top-3 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
-        src={Img4}
-        alt="rounded"
-      />
-      <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-[13px] sm:left-4 left-[18px] md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
-        D
-      </p>
-    </div>
-    <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
-      <p className="mt-[6px] ml-[-15px]">
-        Assist in raising capital and equity{" "}
-        <br className="md:block hidden"></br> to support business growth and{" "}
-        <br className="md:block hidden"></br> expansion.
-      </p>
-    </div>
-  </div>
-</div>
-
+                data-aos="fade-left"
+                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[52px] top-[50px] sm:left-[-10px] left-[-22px]"
+              >
+                <div className="flex gap-3">
+                  <div className="drop relative">
+                    <img className=" md:h-[80px]" src={Img5} alt="drop" />
+                    <img
+                      className="absolute sm:h-[40px] h-[45px] sm:top-1 top-3 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
+                      src={Img4}
+                      alt="rounded"
+                    />
+                    <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-[13px] sm:left-4 left-[18px] md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
+                      D
+                    </p>
+                  </div>
+                  <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
+                    <p className="mt-[6px] ml-[-15px]">
+                      Assist in raising capital and equity{" "}
+                      <br className="md:block hidden"></br> to support business
+                      growth and <br className="md:block hidden"></br>{" "}
+                      expansion.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
               {/* fIFTH */}
-           <div
-  data-aos="fade-left"
-  className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[100px] top-[100px] sm:left-[-50px] md:left-[-136px]"
->
-  <div className="flex gap-3">
-    <div className="drop relative">
-      <img className="md:h-[80px]" src={Img3} alt="drop" />
-      <img
-        className="absolute sm:h-[40px] h-[45px] sm:top-1 top-2 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
-        src={Img4}
-        alt="rounded"
-      />
-      <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-[10px] sm:left-4 left-[20px] md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
-        E
-      </p>
-    </div>
-    <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
-      <p className="mt-[6px] ml-[-15px]">
-        Execute Initial Public Offerings (IPOs){" "}
-        <br className="md:block hidden"></br> to help businesses access public
-        capital{" "}
-        <br className="md:block hidden"></br> markets.
-      </p>
-    </div>
-  </div>
-</div>
-
+              <div
+                data-aos="fade-left"
+                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[100px] top-[100px] sm:left-[-50px] md:left-[-136px]"
+              >
+                <div className="flex gap-3">
+                  <div className="drop relative">
+                    <img className="md:h-[80px]" src={Img3} alt="drop" />
+                    <img
+                      className="absolute sm:h-[40px] h-[45px] sm:top-1 top-2 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
+                      src={Img4}
+                      alt="rounded"
+                    />
+                    <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-[10px] sm:left-4 left-[20px] md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
+                      E
+                    </p>
+                  </div>
+                  <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
+                    <p className="mt-[6px] ml-[-15px]">
+                      Execute Initial Public Offerings (IPOs){" "}
+                      <br className="md:block hidden"></br> to help businesses
+                      access public capital{" "}
+                      <br className="md:block hidden"></br> markets.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

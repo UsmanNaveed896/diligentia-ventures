@@ -9,7 +9,7 @@ import { RiInstagramFill } from "react-icons/ri";
 const Main = () => {
   return (
     <div
-      className="pb-12 "
+      className="pb-12 overflow-hidden"
       style={{
         backgroundImage: `url(${Img})`,
         backgroundSize: "cover", // Ensures the image covers the container

@@ -4,7 +4,7 @@ import Img1 from "../../assets/12.jpg";
 
 const Section4 = () => {
   return (
-    <div
+    <div className="overflow-hidden"
       style={{
         backgroundImage: `url(${Img})`,
         backgroundSize: "cover", // Ensures the image covers the container

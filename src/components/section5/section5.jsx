@@ -2,7 +2,7 @@ import React from "react";
 import Img from "../../assets/13.png";
 const Section5 = () => {
   return (
-    <div className="grid md:grid-cols-6 grid-cols-1 items-center text-white pt-4 md:pt-0">
+    <div className="grid md:grid-cols-6 grid-cols-1 items-center text-white pt-4 md:pt-0 overflow-hidden">
     {/* First Column - Text Content */}
     <div className="col-span-3 bg-secondary p-5 font-texturina md:order-1 order-2">
       <div className="flex justify-center px-8 pt-8 pb-16">

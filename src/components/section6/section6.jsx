@@ -3,7 +3,7 @@ import Img from "../../assets/14.png";
 
 const Section6 = () => {
   return (
-    <div className="grid md:grid-cols-6 grid-cols-1 items-center text-white pt-4 md:pt-0">
+    <div className="grid md:grid-cols-6 grid-cols-1 items-center text-white pt-4 md:pt-0 overflow-hidden">
     {/* First Column - Image */}
     <div className="col-span-2  md:mb-0 mb-[-35px] md:order-2 order-2 md:justify-end flex justify-center">
       <div className="relative w-[400px] h-[400px] rounded-full overflow-hidden md:mr-[-22px]">

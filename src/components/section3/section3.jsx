@@ -35,23 +35,27 @@ const Section3 = () => {
                 data-aos="fade-left"
                 className=" mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[-105px] left-[-150px]"
               >
-                <div className="flex ">
+                <div className="flex gap-3">
                   <div className="drop relative">
-                    <img className="h-[80px]" src={Img3} alt="drop" />
+                    {/* Drop image */}
+                    <img className="h-full md:h-[80px]" src={Img3} alt="drop" />
+                    {/* Rounded image */}
                     <img
-                      className="absolute h-[65px] top-2 left-2"
+                      className="absolute sm:h-[40px] h-[45px] sm:top-1 top-1 sm:left-1 left-1 md:h-[65px] md:top-2 md:left-2"
                       src={Img4}
                       alt="rounded"
                     />
-                    <p className="absolute font-bold z-10 top-4 left-[26px] text-4xl text-[#ec3237]">
+                    {/* Letter A */}
+                    <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-2 sm:left-4 left-4 md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
                       A
                     </p>
                   </div>
-                  <div className="text-white text-[14px]">
+                  <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
                     <p className="mt-[6px] ml-[-15px]">
-                      Provide expert financial consulting to <br></br> enhance
-                      business performance and <br></br> strategic
-                      decision-making.
+                      Provide expert financial consulting to{" "}
+                      <br className="md:block hidden"></br> enhance business
+                      performance and <br className="md:block hidden"></br>{" "}
+                      strategic decision-making.
                     </p>
                   </div>
                 </div>
@@ -61,25 +65,27 @@ const Section3 = () => {
 
               <div
                 data-aos="fade-left"
-                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[-55px] left-[-24px]"
+                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[-50px] top-[-50px] sm:left-[-15px] left-[-24px]"
               >
-                <div className="flex ">
+                <div className="flex gap-3">
                   <div className="drop relative">
-                    <img className="h-[80px]" src={Img5} alt="drop" />
+                    <img className="h-full md:h-[80px]" src={Img5} alt="drop" />
                     <img
-                      className="absolute h-[65px] top-2 left-2"
+                      className="absolute sm:h-[40px] h-[45px] sm:top-1 top-1 sm:left-1 left-1 md:h-[65px] md:top-2 md:left-2"
                       src={Img4}
                       alt="rounded"
                     />
-                    <p className="absolute font-bold z-10 top-4 left-[26px] text-4xl text-[#ec3237]">
+                    <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-2 sm:left-4 left-4 md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
                       B
                     </p>
                   </div>
-                  <div className="text-white text-[14px]">
+                  <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
                     <p className="mt-[6px] ml-[-15px]">
-                      Develop tailored marketing and business <br></br> plans
-                      that align with our clients &#39 <br></br> goals and
-                      market demands.
+                      Develop tailored marketing and business{" "}
+                      <br className="md:block hidden"></br> plans that align
+                      with our clients &#39{" "}
+                      <br className="md:block hidden"></br> goals and market
+                      demands.
                     </p>
                   </div>
                 </div>
@@ -88,24 +94,26 @@ const Section3 = () => {
               {/* tHIRD */}
               <div
                 data-aos="fade-left"
-                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[0px] left-[10px]"
+                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[0px] top-[0px] md:left-[15px] left-[10px]"
               >
-                <div className="flex ">
+                <div className="flex gap-3">
                   <div className="drop relative">
-                    <img className="h-[80px]" src={Img3} alt="drop" />
+                    <img className="h-full md:h-[80px]" src={Img3} alt="drop" />
                     <img
-                      className="absolute h-[65px] top-2 left-2"
+                      className="absolute sm:h-[40px] h-[45px] sm:top-1 top-2 sm:left-1 left-1 md:h-[65px] md:top-2 md:left-2"
                       src={Img4}
                       alt="rounded"
                     />
-                    <p className="absolute font-bold z-10 top-4 left-[26px] text-4xl text-[#ec3237]">
+                    <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-2 sm:left-4 left-4 md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
                       C
                     </p>
                   </div>
-                  <div className="text-white text-[14px]">
+                  <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
                     <p className="mt-[6px] ml-[-15px]">
-                      Facilitate the successful launch of <br></br> startups
-                      through structured planning and <br></br> execution.
+                      Facilitate the successful launch of{" "}
+                      <br className="md:block hidden"></br> startups through
+                      structured planning and{" "}
+                      <br className="md:block hidden"></br> execution.
                     </p>
                   </div>
                 </div>
@@ -113,55 +121,60 @@ const Section3 = () => {
 
               {/* Fourth */}
               <div
-                data-aos="fade-left"
-                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[50px] left-[-22px]"
-              >
-                <div className="flex ">
-                  <div className="drop relative">
-                    <img className="h-[80px]" src={Img5} alt="drop" />
-                    <img
-                      className="absolute h-[65px] top-2 left-2"
-                      src={Img4}
-                      alt="rounded"
-                    />
-                    <p className="absolute font-bold z-10 top-4 left-[26px] text-4xl text-[#ec3237]">
-                      D
-                    </p>
-                  </div>
-                  <div className="text-white text-[14px]">
-                    <p className="mt-[6px] ml-[-15px]">
-                      Assist in raising capital and equity <br></br> to support
-                      business growth and <br></br> expansion.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* fIFTH */}
-              <div
   data-aos="fade-left"
-  className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative top-[100px] left-[-146px]"
+  className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[52px] top-[50px] sm:left-[-10px] left-[-22px]"
 >
-  <div className="flex ">
+  <div className="flex gap-3">
     <div className="drop relative">
-      <img className="h-[80px]" src={Img3} alt="drop" />
+      <img className="h-full md:h-[80px]" src={Img5} alt="drop" />
       <img
-        className="absolute h-[65px] top-2 left-2"
+        className="absolute sm:h-[40px] h-[45px] sm:top-1 top-3 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
         src={Img4}
         alt="rounded"
       />
-      <p className="absolute font-bold z-10 top-4 left-[26px] text-4xl text-[#ec3237]">
-        C
+      <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-[13px] sm:left-4 left-[18px] md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
+        D
       </p>
     </div>
-    <div className="text-white text-[14px]">
+    <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
       <p className="mt-[6px] ml-[-15px]">
-        Execute Initial Public Offerings (IPOs) <br></br> to help businesses
-        access public capital <br></br> markets.
+        Assist in raising capital and equity{" "}
+        <br className="md:block hidden"></br> to support business growth and{" "}
+        <br className="md:block hidden"></br> expansion.
       </p>
     </div>
   </div>
 </div>
+
+
+              {/* fIFTH */}
+           <div
+  data-aos="fade-left"
+  className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[100px] top-[100px] sm:left-[-50px] md:left-[-136px]"
+>
+  <div className="flex gap-3">
+    <div className="drop relative">
+      <img className="h-full md:h-[80px]" src={Img3} alt="drop" />
+      <img
+        className="absolute sm:h-[40px] h-[45px] sm:top-1 top-2 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
+        src={Img4}
+        alt="rounded"
+      />
+      <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-[10px] sm:left-4 left-[20px] md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
+        E
+      </p>
+    </div>
+    <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
+      <p className="mt-[6px] ml-[-15px]">
+        Execute Initial Public Offerings (IPOs){" "}
+        <br className="md:block hidden"></br> to help businesses access public
+        capital{" "}
+        <br className="md:block hidden"></br> markets.
+      </p>
+    </div>
+  </div>
+</div>
+
             </div>
           </div>
         </div>

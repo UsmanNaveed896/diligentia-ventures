@@ -104,7 +104,7 @@ const Section3 = () => {
                       src={Img4}
                       alt="rounded"
                     />
-                    <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-2 sm:left-4 left-4 md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
+                    <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-[10px] sm:left-4 left-4 md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
                       C
                     </p>
                   </div>

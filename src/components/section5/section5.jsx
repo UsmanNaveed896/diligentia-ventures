@@ -8,13 +8,13 @@ const Section5 = () => {
       <div className="flex justify-center px-8 pt-8 pb-16">
         <div className="mt-6 md:text-start text-center">
           <h1 data-aos="fade-left" className="text-white font-semibold text-xl">
-            Lorem ipsum dolor sit amet <br /> consectetur. Nullam sed in ut ac
+          Empowering Success Through Strategic Innovation
           </h1>
           <p data-aos="fade-right" className="mt-4">
-            Lorem ipsum dolor sit amet consectetur. Mattis nulla tempus dignissim mauris dis. Eget ultrices mauris commodo adipiscing. Dolor amet rhoncus amet arcu. Venenatis interdum bibendum urna lacus odio senectus mattis at.
+          At Diligentia Ventures Inc., our mission is to empower businesses with innovative solutions and strategic insights that drive growth, financial stability, and long-term success.
           </p>
           <p data-aos="fade-left" className="mt-4">
-            Lorem ipsum dolor sit amet consectetur. Mattis nulla tempus dignissim mauris dis. Eget ultrices mauris commodo adipiscing. Dolor amet rhoncus amet arcu. Venenatis interdum bibendum urna lacus odio senectus mattis at.
+          We are dedicated to providing personalized guidance to help organizations navigate complex challenges and achieve their full potential in a rapidly evolving global market.
           </p>
           <button data-aos="zoom-out" className="mt-6 rounded bg-white text-secondary text-xs py-2 px-4">
             Read More
@@ -25,7 +25,7 @@ const Section5 = () => {
   
     {/* Middle Column - Circular Image */}
     <div className="col-span-2 md:ml-[-30px] md:mb-0 mb-[-35px] md:order-2 order-1 md:block flex justify-center">
-      <div className="relative w-[400px] h-[400px] rounded-full overflow-hidden">
+      <div className="relative w-[350px] h-[350px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden">
         <img src={Img} alt="Mission" data-aos="flip-left" className="object-cover rounded-full" />
         <div
           className="absolute top-0 left-0 w-full h-full rounded-full border-[25px]"

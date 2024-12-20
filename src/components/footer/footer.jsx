@@ -93,8 +93,7 @@ const Footer = () => {
               Sign up for the newsletter
             </h3>
             <p className="text-sm mb-4 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur. Nec ultricies consequat at
-              vehicula aliquet tincidunt morbi.
+             646 Coney Island Ave Brooklyn NY 11230
             </p>
             <div className="flex flex-col md:flex-row gap-2">
               <input
@@ -102,7 +101,7 @@ const Footer = () => {
                 placeholder="Enter your email..."
                 className="w-full md:w-48 py-2 px-4 rounded-md text-black focus:outline-none"
               />
-              <button className="w-full md:w-auto bg-white text-secondary font-bold py-2 px-6 rounded-md text-xs whitespace-nowrap">
+              <button className="w-full md:w-auto bg-white text-secondary font-bold py-3 px-6 rounded-md text-xs whitespace-nowrap">
                 Submit Now
               </button>
             </div>

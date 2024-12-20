@@ -83,7 +83,7 @@ const Section3 = () => {
                   <p className="mt-[6px] ml-[-15px]">
                       Develop tailored marketing and business{" "}
                       <br className="md:block hidden"></br> plans that align
-                      with our clients &#39{" "}
+                      with our clients
                       <br className="md:block hidden"></br> goals and market
                       demands.
                     </p>

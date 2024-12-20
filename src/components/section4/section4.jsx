@@ -14,8 +14,8 @@ const Section4 = () => {
     >
       <div className="flex justify-center px-8 py-16">
         <div className="container max-w-[900px]">
-          <div className="flex gap-6 justify-center flex-col md:flex-row relative items-center">
-            <div data-aos="flip-left" className="relative h-[400px]">
+          <div className="flex gap-6 md:justify-center justify-between flex-col md:flex-row relative items-center">
+            <div data-aos="flip-left" className="relative  md:h-[400px]">
               <img
                 className="w-full h-full object-cover "
                 src={Img1}
@@ -30,7 +30,7 @@ const Section4 = () => {
             </div>
             <div
               data-aos="slide-up"
-              className="second-div font-texturina mt-24 md:mt-0"
+              className="second-div font-texturina mt-22 md:mt-0"
             >
               <h1 className="text-white font-semibold text-xl md:text-start text-center">
                 It all starts with a surge{" "}

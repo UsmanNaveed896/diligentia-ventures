@@ -65,22 +65,22 @@ const Section3 = () => {
 
               <div
                 data-aos="fade-left"
-                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[-50px] top-[-50px] sm:left-[-15px] left-[-24px]"
+                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[52px] top-[50px] sm:left-[-10px] left-[-22px]"
               >
                 <div className="flex gap-3">
                   <div className="drop relative">
                     <img className=" md:h-[80px]" src={Img5} alt="drop" />
                     <img
-                      className="absolute sm:h-[40px] h-[45px] sm:top-1 top-1 sm:left-1 left-1 md:h-[65px] md:top-2 md:left-2"
+                      className="absolute sm:h-[40px] h-[45px] sm:top-1 top-2 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
                       src={Img4}
                       alt="rounded"
                     />
-                    <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-2 sm:left-4 left-4 md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
+                    <p className="absolute font-bold z-10 sm:text-2xl text-3xl sm:top-2 top-[13px] sm:left-4 left-[18px] md:top-4 md:left-[26px] md:text-4xl text-[#ec3237]">
                       B
                     </p>
                   </div>
                   <div className="text-white sm:text-[13px] text-[11px] md:text-[14px]">
-                    <p className="mt-[6px] ml-[-15px]">
+                  <p className="mt-[6px] ml-[-15px]">
                       Develop tailored marketing and business{" "}
                       <br className="md:block hidden"></br> plans that align
                       with our clients &#39{" "}
@@ -90,6 +90,9 @@ const Section3 = () => {
                   </div>
                 </div>
               </div>
+
+
+            
 
               {/* tHIRD */}
               <div
@@ -128,7 +131,7 @@ const Section3 = () => {
                   <div className="drop relative">
                     <img className=" md:h-[80px]" src={Img5} alt="drop" />
                     <img
-                      className="absolute sm:h-[40px] h-[45px] sm:top-1 top-3 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
+                      className="absolute sm:h-[40px] h-[45px] sm:top-1 top-2 sm:left-1 left-2 md:h-[65px] md:top-2 md:left-2"
                       src={Img4}
                       alt="rounded"
                     />

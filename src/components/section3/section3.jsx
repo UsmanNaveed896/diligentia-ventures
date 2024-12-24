@@ -65,7 +65,7 @@ const Section3 = () => {
 
               <div
                 data-aos="fade-left"
-                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[52px] top-[50px] sm:left-[-10px] left-[-22px]"
+                className="mt-4 md:mt-0 rounded-full bg-[rgb(79,91,114)] border-4 pr-5 border-[#6882a6] static md:relative md:top-[-54px] top-[50px] sm:left-[-10px] left-[-22px]"
               >
                 <div className="flex gap-3">
                   <div className="drop relative">

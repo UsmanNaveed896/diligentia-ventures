@@ -15,7 +15,7 @@ const Main = () => {
   const videos = [Video, Video1, Video2, Video3];
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative h-[100vh]">
       <div className="absolute inset-0 w-full h-full">
         <Carousel
           showThumbs={false}
@@ -37,7 +37,7 @@ const Main = () => {
           )}
         >
           {videos.map((video, index) => (
-            <div key={index} className="h-screen">
+            <div key={index} className="h-screen md:h-full">
               <video
                 className="w-full h-full object-cover"
                 src={video}
@@ -86,10 +86,9 @@ const Main = () => {
               </div>
             </div>
           </div>
-
           <div
             data-aos="fade-down"
-            className="flex  md:justify-start justify-center mt-12 gap-2 text-white md:ml-12"
+            className="flex  md:justify-start justify-center mt-6 gap-2 text-white md:ml-12"
           >
             <div className="flex items-center gap-2 ">
               <FaFacebook className="h-4 w-4" />
@@ -108,6 +107,7 @@ const Main = () => {
               <p className="text-[14px]">Linkedin</p>
             </div>
           </div>
+          
         </div>
       </div>
     </div>

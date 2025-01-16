@@ -4,7 +4,6 @@ import Img2 from "../../assets/2.png";
 import Img3 from "../../assets/Frame.png";
 import Img4 from "../../assets/23.png";
 
-
 const Header = () => {
   const [selected, setSelected] = useState("Home"); // Default selected is 'Home'
 
@@ -51,13 +50,13 @@ const Header = () => {
       </div>
 
       {/* Header for mobile */}
-      <div className="header bg-primary font-texturina block md:hidden h-[90px] py-8 px-1"
-       style={{
-              backgroundImage: `url(${Img4})`,
-              backgroundSize: "cover", // Ensures the image covers the container
-              backgroundPosition: "center",
-            }}
-          
+      <div
+        className="header bg-primary font-texturina block md:hidden h-[90px] py-8 px-1"
+        style={{
+          backgroundImage: `url(${Img4})`,
+          backgroundSize: "cover", // Ensures the image covers the container
+          backgroundPosition: "center",
+        }}
       >
         <div className="flex justify-between items-center w-full px-4">
           {/* Bars aligned to the left */}

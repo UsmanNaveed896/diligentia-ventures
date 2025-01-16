@@ -9,7 +9,7 @@ const Section2 = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="flex justify-center px-8 py-16">
+      <div className="flex justify-center px-8 ">
         <div className="container max-w-[900px]">
           <p data-aos="fade-up" className="text-[17px] font-texturina text-white text-center md:text-start">
             <span data-aos="fade-up" className="text-[#EC3237] text-3xl">

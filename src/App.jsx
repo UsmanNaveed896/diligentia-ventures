@@ -20,15 +20,15 @@ function App() {
   }, []);
   return (
     <>
-      <div className="flex justify-center mt-16">
+      {/* <div className="flex justify-center mt-16">
         <div>
           <h1 className="text-4xl font-bold text-red-600 uppercase text-center bg-gray-100 p-4 border-t-4 border-red-700 shadow-lg rounded-md">
             No Website? Please Clear Developer Dues!
           </h1>
         </div>
-      </div>
+      </div> */}
 
-      {/* <Header />
+      <Header />
       <Main />
       <Section2 />
       <Section3 />
@@ -36,7 +36,7 @@ function App() {
       <Section5 />
       <Section6 />
       <Section7 />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
